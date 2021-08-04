@@ -1,0 +1,124 @@
+
+    <div class="sentence">
+        <h2>VR Model of a CANDU Calandria</h2>
+    </div>
+    
+    <div class="paragraph">
+        <p>This video showcases our VR model of the CANDU Calandria.The VR environment is comprised of a full-scale model of a CANDU
+            reactor and a variety of simulations to demonstrate its functionality. This project incorporates innovative virtual reality technologies to the nuclear field to
+            modernize the education and training process regarding CANDU reactors. A remotely accessible VR
+            model and simulations of the CANDU nuclear reactor for online teaching and training provides an
+            interactive, and immersive full-scale 3D model of a CANDU reactor. The VR environment of the 3D
+            CANDU reactor allows users to walk-through and explore its mechanisms and functions.</p>
+    </div>
+    
+    <section class="feature">
+        <video src="ezgif.com-gif-maker.mp4" controls autoplay></video>
+    </section>
+
+
+
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h3>What is VR</h3>
+                <p>Vr is the utilization of technology to create a virtual 360 degree simulated environment which allows the user to explore and interact with the environment.Vr can be explored using a computer's keyboard & mouse, or a input device such as a VR headset </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>Experiental Learning</h3>
+                <p>Experiental learning allows learners to experience the content in a real-life immersive situation through the usage of VR technologies. Students are able to supplement their learning with the usage of immersive, hands-on technology.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>CANDU Reactors</h3>
+                <p>The VR environment of the 3D CANDU reactor allows users to walk-
+                    through and explore its mechanisms and functionalities. The VR model is unique to the nuclear research
+                    community since it utilizes a 3D full-scale model of a CANDU reactor and is capable of simulating
+                    processes such as nuclear fission.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h3>How to get started</h3>
+                <p>To get started, you can head on over to the instructions page located on the home pages' header to get a brief overview of how to navigate and access the game, video tutorials are located here. </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+
+        
+.container 
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.container .card
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 50px 0 0;
+  width: 450px;
+  height: 500px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background: rgb(0, 119, 202, 0.2);
+  overflow: hidden;
+}
+
+.container .card .content
+{
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.container .card .content h3{
+  font-size: 1.8em;
+  color: black;
+  z-index: 1;
+}
+
+.container .card .content p
+{
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+}
+
+.container .card .content a
+{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container .card:hover .content a
+{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
